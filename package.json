@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio03",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgSibrins/webdriverio-03.git"
+  },
+  "author": "Rodrigo Gonzalez Sibrins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgSibrins/webdriverio-03/issues"
+  },
+  "homepage": "https://github.com/rgSibrins/webdriverio-03#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.7.2"
+  },
+  "devDependencies": {
+    "@wdio/jasmine-framework": "^7.7.2",
+    "@wdio/local-runner": "^7.7.2",
+    "@wdio/spec-reporter": "^7.7.0",
+    "chromedriver": "^90.0.1",
+    "wdio-chromedriver-service": "^7.1.0"
+  }
+}
