@@ -1,4 +1,3 @@
-
 class MainPage {
     get spacexLogo () { return $('#logo') }
     get shopLink () { return $('#navigation-right > ul > li > a') }
