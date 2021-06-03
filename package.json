@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/rgSibrins/webdriverio-03#readme",
   "dependencies": {
-    "@wdio/cli": "^7.7.2"
+    "@wdio/cli": "^7.7.2",
+    "@wdio/sync": "^7.7.2"
   },
   "devDependencies": {
     "@wdio/jasmine-framework": "^7.7.2",
