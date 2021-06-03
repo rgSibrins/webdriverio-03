@@ -24,7 +24,10 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        ['./test/specs/main-automation.js'],
+        ['./test/specs/shop-automation.js'],
+        ['./test/specs/cart-automation.js']
+        //'./test/specs/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -60,6 +63,7 @@ exports.config = {
         maxInstances: 1,
         //
         browserName: 'chrome',
+        browserVersion: '90.0', 
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
